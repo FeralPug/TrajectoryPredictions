@@ -40,6 +40,8 @@ public class TrajectoryDrawer : MonoBehaviour
         if (isDirty)
         {
             CalculateTrajectoryPath();
+            
+            isDirty = false;
         }
     }
 
